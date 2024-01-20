@@ -499,10 +499,6 @@ margin-bottom: 16px;
   fill: #F4F4FD;
 }
 
-.subscribe{
-
-}
-
 .text-sub{
   color:  #FFF;
   font-size: 16px;
@@ -537,7 +533,6 @@ display: flex;
   letter-spacing: 0.07em;
   margin-right: 24px;
   display: flex;
-  flex: ;
 }
 
 .footer-icon{
@@ -777,10 +772,6 @@ display: flex;
   background-color: #F4F4FD;
   border: none;
   fill: #E7E9FC;
-}
-
-.chec-a{
-
 }
 
 .chec-btn{
