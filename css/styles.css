@@ -737,9 +737,6 @@ gap: 24px;
 
 .chec-text{
   color: #8E8F99;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 .check-span{
@@ -748,6 +745,7 @@ gap: 24px;
   justify-content: center;
   width: 16px;
   height: 16px;
+  margin-right: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.40);
   fill: transparent;
