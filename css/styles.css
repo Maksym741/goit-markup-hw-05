@@ -203,13 +203,12 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-title:hover {
+.button-title:hover,
+.button-title:focus,
+.button-title:active{
   background-color: #404bbf;
 }
 
-.button-title:focus {
-  background-color: #404bbf;
-}
 /*?-----------------------------------------*/
 /*?-------------------Feature-------------------*/
 .feature-section {
@@ -511,7 +510,6 @@ margin-bottom: 16px;
 
 .footer-form{
 display: flex;
-gap: 24px;
 }
 
 .footer-label{
@@ -553,7 +551,13 @@ gap: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
+.footer-input-btn:hover,
+.footer-input-btn:focus,
+.footer-input-btn:active{
+  background-color: #4D5AE5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-btn-icon{
@@ -729,6 +733,7 @@ gap: 24px;
 .modal-textarea:focus,
 .modal-textarea:active{
   border-color: #4D5AE5
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-chec{
@@ -778,5 +783,12 @@ gap: 24px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.chec-btn:hover,
+.chec-btn:focus,
+.chec-btn:active{
+  background-color: #4D5AE5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
